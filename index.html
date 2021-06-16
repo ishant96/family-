@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<title>Family Book</title>
+
+<body>
+    <h1>Family Book</h1>
+    <br> <br>
+    <img id="family_img" src="family book.jpg">
+    <h3 id="one">1. Our Family Book</h3>
+    <button type="button" onclick="family()">Next</button>
+    <br>
+    <script>
+        var names = [
+            "2. My Father (Rajkumar Sarawag)"
+            "3. My Mother (Suman Sarawag)"
+            "4. Me (Ishant Sarawag)"
+        ];
+        var images = [
+            "bg1.father"
+            "bg1.mother"
+            "bg1.me"
+        ];
+        var i=0;
+        function family(){
+            document.getElementById("one").innerHTML=names[i];
+            document.getElementById("family_img").src=images[i];
+            i++;
+            if(i==4){
+            i=0;
+            }}
+            </script>
+            </body>
+            </html> 
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
